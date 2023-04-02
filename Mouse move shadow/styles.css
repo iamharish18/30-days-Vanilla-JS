@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(212, 200, 88), rgb(183, 64, 194));
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+#text {
+    text-shadow: 10px 10px 0 rgb(72, 180, 194);
+    justify-content: center;
+    align-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

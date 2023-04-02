@@ -1,0 +1,17 @@
+html {
+    background-color: gold;
+}
+
+.inbox {
+    max-width: 200px;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

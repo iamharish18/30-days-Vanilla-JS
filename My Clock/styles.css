@@ -1,0 +1,53 @@
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/12/22/35/watercolour-1325656_960_720.jpg);
+    background-size: cover;
+}
+
+p {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.clockContainer {
+    position: relative;
+    margin: 50px auto auto auto;
+    height: 40vw;
+    width: 40vw;
+    background-size: 100%;
+    background-image: url(clockImg.png);
+}
+
+#hours,
+#mins,
+#secs {
+    position: absolute;
+    background: rgb(54, 54, 54);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+
+#hours {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+  
+#mins {
+    width: 1.3%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+  
+#secs {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}

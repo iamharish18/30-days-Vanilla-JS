@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow along Nav</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+  <header>
+    <h1>Follow Along Hover Navigation</h1>
+    <p>Inspired by the slick navigation on Stripe's site, this is a navigation that has a follow along background. We use JavaScript to add/remove classes to handle the toggle. Then we use getBoundingClientRect() to transform a white background as the user moves across each dropdown link.</p>
+  </header>
+  <section class="content">
+    <nav class="top">
+      <div class="dropdownBackground">
+        <span class="arrow"></span>
+      </div>
+
+      <ul class="cool">
+        <li>
+          <a href="#">About Me</a>
+          <div class="dropdown dropdown1">
+            <div class="bio">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/747/photo1.jpg">
+              <p>Colin lives with his wife, Katy, in Nashville. He's been a front-end developer for over a decade and has a gray hair for every legacy IE bug he's tackled over the years.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#">Links</a>
+          <ul class="dropdown courses">
+            <li>
+              <a href="https://colinlord.com">Colin Lord.com</a>
+            </li>
+            <li>
+              <a href="https://speakerdeck.com/colinlord">Slides From Talks I've Given</a>
+            </li>
+            <li>
+              <a href="https://www.last.fm/user/clordatl">Music I've Listened To</a>
+            </li>
+            <li>
+              <a href="https://untappd.com/user/colinlord">Beers I've Had Lately</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Social Media</a>
+          <ul class="dropdown dropdown3">
+            <li><a class="button" href="http://twitter.com/colinlord">Twitter</a></li>
+            <li><a class="button" href="http://facebook.com/colinlord">Facebook</a></li>
+            <li><a class="button" href="https://linkedin.com/in/colinlord">LinkedIn</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </section>
+</main>
+    <script src="index.js"></script>
+</body>
+</html>
